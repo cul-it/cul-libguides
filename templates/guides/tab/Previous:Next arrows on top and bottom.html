@@ -1,27 +1,27 @@
 <body class="s-lg-guide-body">
-        <nav aria-label="Skip to main content">{{skip_link}}</nav>
-        {{ADMIN_CMD_BAR}}
-        <!-- BEGIN: Page Header -->
-        {{public_header}}
-        <!-- END: Page Header -->
-        <!-- BEGIN: Guide Info Header -->
-        <div id="s-lg-guide-header" class="container s-lib-header s-lib-side-borders">
-            <div id="s-lib-bc">
-                <nav aria-label="Breadcrumbs">{{breadcrumbs}}</nav>
-            </div>
-      <div class="pull-right">
-        <div id="s-lg-guide-header-search">
-          {{guide_search}}        </div>
-        {{ADMIN_MINI_CMD_BAR}}
-      </div>
-            <div id="s-lg-guide-header-info" role="banner" aria-labelledby="s-lg-guide-name">
-                <h1 id="s-lg-guide-name">{{guide_title}}: {{page_title}}</h1>
-                <div id="s-lg-guide-desc-container" class="pad-top-med">
-                    <span id="s-lg-guide-description">{{guide_description}}</span>
-                </div>
-            </div>
+  <nav aria-label="Skip to main content">{{skip_link}}</nav>
+  {{ADMIN_CMD_BAR}}
+  <!-- BEGIN: Page Header -->
+  {{public_header}}
+  <!-- END: Page Header -->
+  <!-- BEGIN: Guide Info Header -->
+  <div id="s-lg-guide-header" class="container s-lib-header s-lib-side-borders">
+    <div id="s-lib-bc">
+      <nav aria-label="Breadcrumbs">{{breadcrumbs}}</nav>
+    </div>
+    <div id="s-lg-guide-header-search">
+    </div>
+    <div id="s-lg-guide-header-info" role="banner" aria-labelledby="s-lg-guide-name">
+      <h1 id="s-lg-guide-name">{{guide_title}}: {{page_title}}</h1>
+      <div id="s-lg-guide-desc-container" class="pad-top-med">
+        <span id="s-lg-guide-description">{{guide_description}}</span>
+        <div id="s-lg-guide-header-url">
+          <span class="s-lg-guide-label">URL:</span> <span class="s-lg-text-greyout">{{guide_url}}</span>
         </div>
-        <!-- END: Guide Info Header -->
+      </div>
+    </div>
+  </div>
+  <!-- END: Guide Info Header -->
         <div id="s-lg-tabs-container" class="container s-lib-side-borders pad-top-med">
             <div id="s-lg-guide-tabs" class="tabs">
                 <ul class="nav nav-tabs split-button-nav">
@@ -45,7 +45,7 @@
           <span class="s-lg-guide-label">Last Updated:</span> <span class="s-lg-text-greyout">{{guide_updated}}</span>
         </li>
         <li class="s-lg-h-separator">
-          <span class="s-lg-guide-label">URL:</span> <span class="s-lg-text-greyout">{{guide_url}}</span>
+         <span class="s-lg-guide-label">URL:</span> <span class="s-lg-text-greyout">{{guide_url}}</span>
         </li>
         <li id="s-lg-guide-print-url">
           <a href="{{guide_print_url}}"><i class="fa fa-print" aria-hidden="true" title="Print Page"></i> Print Page</a>

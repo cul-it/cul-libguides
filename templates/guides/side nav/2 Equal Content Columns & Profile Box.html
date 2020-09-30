@@ -1,68 +1,70 @@
-<!-- SIDE NAV -->
-  <body class="s-lg-guide-body">
-        <nav aria-label="Skip to main content">{{skip_link}}</nav>
-        {{ADMIN_CMD_BAR}}
-        <!-- BEGIN: Page Header -->
-        {{public_header}}
-        <!-- END: Page Header -->
-        <!-- BEGIN: Guide Header -->
-      <div id="s-lg-guide-header" class="container s-lib-header s-lib-side-borders">
-            <div id="s-lib-bc">
-              <nav aria-label="Breadcrumbs">{{breadcrumbs}}</nav>
-            </div>
-            <div id="s-lg-guide-header-search">
-            </div>
-            <div id="s-lg-guide-header-info" role="banner" aria-labelledby="s-lg-guide-name">
-                <h1 id="s-lg-guide-name">{{guide_title}}</h1>
-                <div id="s-lg-guide-desc-container" class="pad-top-med">
-                    <span id="s-lg-guide-description">{{guide_description}}</span>
-                </div>
-            </div>
+<body class="s-lg-guide-body">
+  <nav aria-label="Skip to main content">{{skip_link}}</nav>
+  {{ADMIN_CMD_BAR}}
+  <!-- BEGIN: Page Header -->
+  {{public_header}}
+  <!-- END: Page Header -->
+  <!-- BEGIN: Guide Info Header -->
+  <div id="s-lg-guide-header" class="container s-lib-header s-lib-side-borders">
+    <div id="s-lib-bc">
+      <nav aria-label="Breadcrumbs">{{breadcrumbs}}</nav>
+    </div>
+    <div id="s-lg-guide-header-search">
+    </div>
+    <div id="s-lg-guide-header-info" role="banner" aria-labelledby="s-lg-guide-name">
+      <h1 id="s-lg-guide-name">{{guide_title}}: {{page_title}}</h1>
+      <div id="s-lg-guide-desc-container" class="pad-top-med">
+        <span id="s-lg-guide-description">{{guide_description}}</span>
+        <div id="s-lg-guide-header-url">
+          <span class="s-lg-guide-label">URL:</span> <span class="s-lg-text-greyout">{{guide_url}}</span>
         </div>
-        <!-- END: Guide Header -->
-        <div id="s-lg-guide-tabs-title-bar" class="container s-lib-side-borders"></div>
-        <div id="s-lg-tabs-container" class="container s-lib-side-borders pad-top-med">
-            <div id="s-lg-guide-tabs">
-                <div class="row">
-                    <div class="col-md-3 s-lg-tabs-side pad-bottom-med">
-                        <ul class="nav nav-pills nav-stacked">{{guide_nav}}
-</ul>
-                        {{side_nav_boxes}}
-                    </div>
-                    <div class="col-md-9">
-                        <div class="s-lg-tab-content">
-                            <div class="tab-pane active">
-                         <div class="row s-lg-row">
-
-     <div class="col-md-5">
-          <div class="s-lg-col-boxes">
-               {{content_col_1}}
-          </div>
-     </div>
-
-     <div class="col-md-5">
-          <div class="s-lg-col-boxes">
-               {{content_col_2}}
-          </div>
-     </div>
-
-
-     <div class="col-md-2">
-          <div class="s-lg-col-boxes">
-  {{content_box_profile}}
-               {{content_col_3}}
-          </div>
-     </div>
-
-</div>
-                            </div>
-                        </div>
-                  {{page_prev_next_links}}
-                    </div>
-                </div>
-            </div>
+      </div>
+    </div>
+  </div>
+  <!-- END: Guide Info Header -->
+  <!-- BEGIN: Main Content Section -->
+  <div id="s-lg-guide-tabs-title-bar" class="container s-lib-side-borders"></div>
+  <div id="s-lg-tabs-container" class="container s-lib-side-borders pad-top-med">
+    <div id="s-lg-guide-tabs">
+      <div class="row">
+        <!-- BEGIN: Side Navigation -->
+        <div class="col-md-3 s-lg-tabs-side pad-bottom-med">
+          <ul class="nav nav-pills nav-stacked">{{guide_nav}}</ul>
+          {{side_nav_boxes}}
         </div>
-        <!-- BEGIN: Page Footer -->
+        <!-- END: Side Navigation -->
+        <!-- BEGIN: Content -->
+        <div class="col-md-9">
+          <div class="s-lg-tab-content">
+            <div class="tab-pane active">
+              <div class="row s-lg-row">
+                <div class="col-md-5">
+                  <div class="s-lg-col-boxes">
+                    {{content_col_1}}
+                  </div>
+                </div>
+                <div class="col-md-5">
+                  <div class="s-lg-col-boxes">
+                    {{content_col_2}}
+                  </div>
+                </div>
+                <div class="col-md-2">
+                  <div class="s-lg-col-boxes">
+                    {{content_box_profile}}
+                    {{content_col_3}}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          {{page_prev_next_links}}
+        </div>
+        <!-- END: Content -->
+      </div>
+    </div>
+  </div>
+  <!-- END: Main Content Section -->
+  <!-- BEGIN: Page Footer -->
   <div id="s-lib-footer-public" class="s-lib-footer footer container  s-lib-side-borders" role="contentinfo" aria-label="Footer content and links">
     <div id="s-lg-guide-header-meta" class="pad-top-sm pad-left-med clearfix">
       <ul id="s-lg-guide-header-attributes" class="">
@@ -70,7 +72,7 @@
           <span class="s-lg-guide-label">Last Updated:</span> <span class="s-lg-text-greyout">{{guide_updated}}</span>
         </li>
         <li class="s-lg-h-separator">
-          <span class="s-lg-guide-label">URL:</span> <span class="s-lg-text-greyout">{{guide_url}}</span>
+         <span class="s-lg-guide-label">URL:</span> <span class="s-lg-text-greyout">{{guide_url}}</span>
         </li>
         <li id="s-lg-guide-print-url">
           <a href="{{guide_print_url}}"><i class="fa fa-print" aria-hidden="true" title="Print Page"></i> Print Page</a>

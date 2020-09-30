@@ -9,11 +9,15 @@
     <div id="s-lib-bc">
       <nav aria-label="Breadcrumbs">{{breadcrumbs}}</nav>
     </div>
-    <div id="s-lg-guide-header-search">{{guide_search}}</div>
+    <div id="s-lg-guide-header-search">
+    </div>
     <div id="s-lg-guide-header-info" role="banner" aria-labelledby="s-lg-guide-name">
-      <h1 id="s-lg-guide-name">{{guide_title}}</h1>
+      <h1 id="s-lg-guide-name">{{guide_title}}: {{page_title}}</h1>
       <div id="s-lg-guide-desc-container" class="pad-top-med">
         <span id="s-lg-guide-description">{{guide_description}}</span>
+        <li id="s-lg-guide-header-url" class="s-lg-h-separator">
+          <span class="s-lg-guide-label">URL:</span> <span class="s-lg-text-greyout">{{guide_url}}</span>
+        </li>
       </div>
     </div>
   </div>
@@ -51,7 +55,7 @@
           <span class="s-lg-guide-label">Last Updated:</span> <span class="s-lg-text-greyout">{{guide_updated}}</span>
         </li>
         <li class="s-lg-h-separator">
-          <span class="s-lg-guide-label">URL:</span> <span class="s-lg-text-greyout">{{guide_url}}</span>
+         <span class="s-lg-guide-label">URL:</span> <span class="s-lg-text-greyout">{{guide_url}}</span>
         </li>
         <li id="s-lg-guide-print-url">
           <a href="{{guide_print_url}}"><i class="fa fa-print" aria-hidden="true" title="Print Page"></i> Print Page</a>
