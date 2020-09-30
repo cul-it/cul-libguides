@@ -1,4 +1,6 @@
+<!-- Since we use a single guide as the homepage, this template is not used and should not be used without involvement from IT to fix functionality and accessibility -->
 <body class="s-lib-public-body">
+  <nav aria-label="Skip to main content">{{skip_link}}</nav>
   <!-- BEGIN: Page Header -->
   {{public_header}}
   <!-- END: Page Header -->
@@ -7,7 +9,7 @@
       <div id="s-lib-bc">
         <div id="s-lib-footer-login-link">
           <a href="{{login_url}}"><strong>Login to LibApps</strong></a>.
-          {{breadcrumbs}}
+          <nav aria-label="Breadcrumbs">{{breadcrumbs}}</nav>
         </div>
       </div>
       <h1 id="s-lib-public-header-title">{{title}}</h1>
