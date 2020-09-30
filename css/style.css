@@ -1,0 +1,142 @@
+#cu-identity-wrap {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 63.125%;
+  /* translate 1.0em to 10px, 1.5em to 15px, etc. */
+  color: #222;
+  height: 65px;
+  background: #B31B1B;
+}
+#cu-identity-content {
+  position: relative;
+  margin: 0 auto; width:90%;
+  height: 55px;
+  background: url(https://raw.githubusercontent.com/cul-it/library-website-branding/master/final/CUL-logo-312x53-white.png) no-repeat;
+  background-position-y:5px;
+}
+#cu-identity-content a {
+  position: absolute;
+  display: block;
+  border: none;
+  /* hide text link */
+  text-indent: -1000em;
+  text-decoration: none;
+}
+#cu-identity-content img {
+  display: none;
+}
+#insignia-link {
+  width: 45px;
+  height: 75px;
+}
+#unit-signature-links a {
+  left: 45px;
+  width: 300px;
+}
+#cornell-link {
+  height: 0px;
+}
+#unit-link1 {
+  top: 5px;
+  height: 50px;
+  width:300px;
+}
+#unit-link2 {
+  top: 55px;
+  height: 33px;
+} 
+div#s-lg-guide-tabs:focus {
+  outline-style:solid;
+  outline-color:black;
+  outline-width:3px;
+}
+.s-lib-footer {
+  font-size: 13px;
+  font-weight: bold;
+  background-color: #FFF;
+}
+#cu-identity-wrap a {
+  color:#ffffff;
+}
+.s-lib-profile-email .label-info {
+  background-color: #366fac;
+  color: #fff;
+}
+.s-lib-profile-email .label-info:hover {
+  background-color:#e8e8e8;
+  color: #041e42;
+}
+.s-lg-gmeta .s-lib-color-lt-grey, .s-lg-gmeta .hitst {
+  color: #333;
+​}
+.fa-external-link, #s-lg-tabs-container .nav-tabs > .active > a, #s-lg-tabs-container .nav-tabs > .active > button, #s-lg-tabs-container .nav-pills > .active > a, #s-lg-tabs-container .nav-pills > .active > button, #s-lg-tabs-container .nav-tabs > li > a:hover, #s-lg-tabs-container .nav-tabs > li > button:hover, #s-lg-tabs-container .nav-pills > li > a:hover, #s-lg-tabs-container .nav-pills > li > button:hover {
+  color: #fff !important;
+}
+.footer a, .s-srch-result-subjects a, .s-lg-az-result-description a {
+  text-decoration: underline !important;
+}
+.badge {
+  background-color: #000;
+}
+.navbar-default .navbar-brand {
+  color: #000;
+}
+.label-info[href]:focus, .label-info[href]:hover {
+  background-color: #e8e8e8;
+  color: #000;
+}
+.pagination>.disabled>a, .pagination>.disabled>a:focus, .pagination>.disabled>a:hover, .pagination>.disabled>span, .pagination>.disabled>span:focus, .pagination>.disabled>span:hover, .s-srch-result-meta .divider, .s-lg-rss-date, .s-lg-text-ghost, .s-lib-text-ghost {
+  color: #767676 !important;
+}
+.breadcrumb {
+  background-color: #fff !important;
+}
+.announcement-alert .container {
+background: #1a665f;
+padding: 1em 2em;
+border-radius: 0 0 8px 8px;
+}
+.announcement-alert p {
+font-size: 18px;
+text-align: center;
+margin-bottom: 0;
+}
+.announcement-alert a {
+color: #fff;
+text-decoration: underline;
+}
+.cornell-brand {
+padding: 13px 0;
+position: relative;
+min-height: 1px;
+}
+.cornell-logo {
+float: left;
+width: 100%;
+}
+.cornell-logo .insignia {
+float: left;
+background: url("https://raw.githubusercontent.com/cul-it/library-website-branding/master/final/cornell_seal_simple_b31b1b.svg") no-repeat;
+margin-right: 0.8em;
+width: 60px;
+height: 60px;
+text-indent: -99999em;
+}
+.library-brand {
+font-family: "Montserrat", sans-serif;
+text-transform: uppercase;
+font-size: 18px;
+padding: 0 10px;
+margin: 0.8em 0;
+}
+.library-brand a {
+text-decoration: none;
+color: #000;
+}
+.library-brand a:hover {
+text-decoration: none;
+color: #000;
+cursor: pointer;
+}
+.cornell-brand .container {
+padding: 0;
+}
