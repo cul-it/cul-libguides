@@ -1,0 +1,80 @@
+<body class="s-lib-public-body">
+  <nav aria-label="Skip to main content">{{skip_link}}</nav>
+  <!-- BEGIN: Page Header -->
+  {{public_header}}
+  <!-- END: Page Header -->
+  <!-- BEGIN: Content Header -->
+  <div id="s-lib-public-header" class="s-lib-header container s-lib-side-borders">
+    <div id="s-lib-bc"><nav aria-label="Breadcrumbs">{{breadcrumbs}}</nav></div>
+    <div id="s-lg-guide-header-info" role="banner" aria-labelledby="s-lib-public-header-title">
+      <h1 id="s-lib-public-header-title">Cornell University Library Guides</h1>
+      <div id="s-lg-guide-desc-container" class="pad-top-med">
+        <div id="s-lib-public-header-desc">{{system_intro}}</div>
+      </div>
+    </div>
+  </div>
+  <!-- END: Content Header -->
+  <!-- BEGIN: Nav Bar -->
+  <div id="s-lib-public-nav" class="container s-lib-side-borders">
+    {{page_nav}}
+  </div>
+  <!-- END: Nav Bar -->
+  <!-- BEGIN: Content -->
+  <div id="s-lib-public-main" class="container s-lib-main s-lib-side-borders">
+    <div class="row s-lg-row">
+      <div class="col-md-8 center">
+        <div class="clearfix">
+          <nav aria-label="Guide List Controls" id="s-lg-hp-nav">
+            <ul>
+              <li>
+                  <ul class="nav nav-pills">
+                    {{button_all_guides}}
+                    {{button_by_group}}
+                    {{button_by_owner}}
+                  </ul>
+                </li>
+                <li id="s-lg-hp-nav-bottom">
+                  <div class="clearfix">
+                    {{search_guides}}
+                  </div>
+                </li>
+              </ul>
+            {{guide_list_controls}}
+          </nav>
+        </div>
+        <div id="s-lg-index-list" class="">
+          {{content}}
+        </div>
+      </div>
+      <div class="col-md-4 center" role="complementary" aria-label="Additional Cornell University Library Guide Information">
+        {{content_boxes}}
+      </div>
+    </div>
+  </div>
+  <!-- END: Content -->
+  <!-- BEGIN: Page Footer -->
+  <div id="s-lib-footer-public" class="s-lib-footer footer container  s-lib-side-borders" role="contentinfo" aria-label="Footer content and links">
+    <div id="s-lg-guide-header-meta" class="pad-top-sm pad-left-med clearfix">
+      <div id="s-lib-footer-login-link" class="pull-right pad-right-med">
+        <a href="{{login_url}}">Login to LibApps</a>.
+      </div>
+    </div>
+  </div>
+  <!-- END: Page Footer -->
+  <!-- BEGIN: Scroll to Top Button -->
+  <div id="s-lib-scroll-top" title="Back to Top">
+    <span class="fa-stack fa-lg">
+      <i class="fa fa-square-o fa-stack-2x" aria-hidden="true"></i>
+      <i class="fa fa-angle-double-up fa-stack-1x" style="position:relative; bottom:2px;" aria-hidden="true"></i>
+    </span>
+  </div>
+  <!-- END: Scroll to Top Button -->
+  <!-- BEGIN: Alert -->
+  <div id="s-lib-alert" title="">
+    <div id="s-lib-alert-content"></div>
+  </div>
+  <!-- END: Alert -->
+  <!-- BEGIN: Custom Footer -->
+  {{public_footer}}
+  <!-- END: Custom Footer -->
+</body>
