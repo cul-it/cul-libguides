@@ -43,7 +43,7 @@
 #unit-link2 {
   top: 55px;
   height: 33px;
-} 
+}
 div#s-lg-guide-tabs:focus {
   outline-style:solid;
   outline-color:black;
@@ -71,7 +71,7 @@ div#s-lg-guide-tabs:focus {
 .fa-external-link, #s-lg-tabs-container .nav-tabs > .active > a, #s-lg-tabs-container .nav-tabs > .active > button, #s-lg-tabs-container .nav-pills > .active > a, #s-lg-tabs-container .nav-pills > .active > button, #s-lg-tabs-container .nav-tabs > li > a:hover, #s-lg-tabs-container .nav-tabs > li > button:hover, #s-lg-tabs-container .nav-pills > li > a:hover, #s-lg-tabs-container .nav-pills > li > button:hover {
   color: #fff !important;
 }
-.footer a, .s-srch-result-subjects a, .s-lg-az-result-description a {
+.footer a, .s-srch-result-subjects a, .s-lg-az-result-description a, .s-lg-guide-info-account a {
   text-decoration: underline !important;
 }
 .badge {
@@ -139,4 +139,7 @@ cursor: pointer;
 }
 .cornell-brand .container {
 padding: 0;
+}
+#s-lg-guide-list-controls {
+  margin-top: 20px;
 }
