@@ -1,5 +1,6 @@
 <body class="s-lib-public-body">
   <nav aria-label="Skip to main content">{{skip_link}}</nav>
+  {{obsolete_browser_alert}}
   <!-- BEGIN: Page Header -->
   {{public_header}}
   <!-- END: Page Header -->
@@ -20,8 +21,8 @@
   </div>
   <!-- END: Nav Bar -->
   <!-- BEGIN: content -->
-  <div id="s-lib-public-main" class="s-lib-main container s-lib-side-borders" tabindex="-1">
-    <section aria-label="Profile Content">
+  <div id="s-lib-public-main" class="s-lib-main container s-lib-side-borders" tabindex="-1" role="main" aria-label="Profile Content">
+    <section>
       <div id="s-lg-profile-cols" class="row">
         <div id="col1" class="col-md-3 center">
           {{profile_box}}
@@ -38,6 +39,7 @@
   </div>
   <!-- END: content -->
   <!-- BEGIN: Page Footer -->
+  {{system_footer}}
   <div id="s-lib-footer-public" class="s-lib-footer footer container  s-lib-side-borders" role="contentinfo" aria-label="Footer content and links">
     <div id="s-lg-guide-header-meta" class="pad-top-sm pad-left-med clearfix">
       <div id="s-lib-footer-login-link" class="pull-right pad-right-med">
