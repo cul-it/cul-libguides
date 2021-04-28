@@ -25,7 +25,7 @@
   <!-- END: Guide Info Header -->
   <!-- BEGIN: Main Content Section -->
   <div id="s-lg-guide-tabs-title-bar" class="container s-lib-side-borders"></div>
-  <div id="s-lg-side-nav-content" class="container s-lib-side-borders pad-top-med" role="main" aria-label="Guide content">
+  <div id="s-lg-side-nav-content" class="container s-lib-side-borders pad-top-med">
     <div class="row">
       <!-- BEGIN: Side Navigation -->
       <div class="col-md-3 s-lg-tabs-side pad-bottom-med">
@@ -38,9 +38,9 @@
       </div>
       <!-- END: Side Navigation -->
       <!-- BEGIN: Content -->
-      <div class="col-md-9">
+      <div id="s-lg-guide-main" role="main" aria-label="Guide content" class="col-md-9">
         <div class="s-lg-tab-content">
-          <div id="s-lg-guide-main" class="tab-pane active">
+          <div class="tab-pane active">
             {{content}}
           </div>
         </div>
@@ -88,7 +88,7 @@
   </div>
   <!-- END: Scroll to Top Button -->
   <!-- BEGIN: Alert -->
-  <div id="s-lib-alert" title="">
+  <div id="s-lib-alert" title="" aria-atomic="true">
     <div id="s-lib-alert-content"></div>
   </div>
   <!-- END: Alert -->

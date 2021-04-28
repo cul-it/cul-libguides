@@ -1,0 +1,54 @@
+.s-lib-box-std .s-lg-edit-link, .dropdown-menu a, .s-lg-admin-guide-page-nav .nav>li>a:hover, .s-lg-admin-guide-page-nav .nav>li>a:focus, .s-lg-admin-guide-page-nav .nav>li>a:active, .s-lg-admin-guide-page-nav .dropdown-menu>li>a, .s-lg-admin-guide-page-nav a:hover, .s-lg-admin-guide-page-nav a:focus, .s-lg-admin-guide-page-nav a:active, .panel-heading a, .ui-dialog a, .alert {
+    color: #000 !important;
+}
+.s-lib-cmd-bar .nav>li>a, #s-lg-admin-command-bar .fa-external-link, .s-lg-admin-guide-page-nav a, .s-lg-box-updated {
+    font-size: 12px;
+    color: #323232 !important;
+}
+.s-lg-admin-guide-page-nav a, #s-lg-add-page-icon {
+    color: #777 !important;
+}
+.s-lib-cmd-bar-acctlinks a, .ui-dialog-title {
+    font-size: 1em !important;
+}
+.s-lib-cmd-bar .nav>li>a:hover, .s-lib-cmd-bar .nav>li>a:focus, .s-lib-cmd-bar .nav>li>a:active, .s-lg-admin-guide-page-nav .nav>li>a:hover, .s-lg-admin-guide-page-nav .nav>li>a:focus, .s-lg-admin-guide-page-nav .nav>li>a:active, #s-lib-alert-content .nav>li>a:active{
+    background-color: transparent !important;
+}
+.s-lib-cmd-bar ul li, .s-lib-cmd-bar ol li {
+    padding: 0;
+}
+.dropdown-menu {
+    padding: 5px 0 !important;
+}
+.dropdown-header {
+    padding: 3px 20px !important;
+}
+#s-lib-app-anchor, .s-lib-cmd-bar .dropdown-menu a:hover, .s-lib-cmd-bar .dropdown-menu a:focus, .s-lib-cmd-bar .dropdown-menu a:active {
+    color: #fff !important;
+}
+#s-lib-app-anchor {
+    font-size: 15px;
+}
+#s-lg-admin-edit-content-link-container a, #s-lib-alert-content a, .s-lib-main .s-lg-content-edit a {
+    text-decoration: none !important;
+}
+#s-lib-alert-content .nav>li>a:hover, #s-lib-alert-content .nav>li>a:focus, a.cke_dialog_ui_button_ok {
+    background-color: #337ab7 !important;
+    color: #fff !important;
+}
+#s-lg-tabs-container .nav-tabs>li>#s-lg-admin-tab-anchor #s-lg-add-page-icon {
+    margin-left: -9px;
+}
+button.ui-dialog-titlebar-close i {
+    top: -3px;
+    left: -1px;
+}
+a.cke_dialog_ui_button_ok {
+    background: #337ab7 !important;
+    border: 1px solid #337ab7 !important;
+    color: #fff !important;
+}
+a.cke_dialog_ui_button_ok:hover, a.cke_dialog_ui_button_ok:focus, a.cke_dialog_ui_button_ok:active {
+    background-color: #000 !important;
+    border-color: #000 !important;
+}

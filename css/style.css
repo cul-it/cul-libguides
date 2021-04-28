@@ -1,3 +1,25 @@
+html {
+  font-size: 14px;
+}
+body, body.s-lg-guide-body, h4, h5, h6, .s-lib-box .s-lib-box-title {
+  font-size: 1em;
+}
+h3 {
+  font-size:1.25em;
+}
+h2 {
+  font-size: 1.5em;
+}
+h1, #s-lg-guide-header-info h1, .s-lib-header h1 {
+  font-size: 1.75em;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-weight: bold;
+}
+#s-lib-admin-bc .breadcrumb, #s-lib-bc .breadcrumb {
+  font-size: 0.9em;
+}
+
 #cu-identity-wrap {
   font-family: verdana, arial, helvetica, sans-serif;
   font-size: 63.125%;
@@ -10,7 +32,7 @@
   position: relative;
   margin: 0 auto; width:90%;
   height: 55px;
-  background: url(https://raw.githubusercontent.com/cul-it/library-website-branding/master/final/CUL-logo-312x53-white.png) no-repeat;
+  background: url(https://raw.githubusercontent.com/cul-it/library-website-branding/master/final/CULibraryRed.svg) no-repeat;
   background-position-y:5px;
 }
 #cu-identity-content a {
@@ -50,96 +72,147 @@ div#s-lg-guide-tabs:focus {
   outline-width:3px;
 }
 .s-lib-footer {
-  font-size: 13px;
+  font-size: 1em;
   font-weight: bold;
   background-color: #FFF;
 }
-#cu-identity-wrap a {
-  color:#ffffff;
-}
-.s-lib-profile-email .label-info {
-  background-color: #366fac;
-  color: #fff;
-}
-.s-lib-profile-email .label-info:hover {
-  background-color:#e8e8e8;
-  color: #041e42;
+.s-lib-profile-email .label-info, .s-lib-profile-widget button {
+  background-color: #337ab7 !important;
+  color: #fff !important;
+  text-decoration: underline !important;
+  font-size: 1em !important;
+  padding: 8px 20px;
 }
 .s-lg-gmeta .s-lib-color-lt-grey, .s-lg-gmeta .hitst {
   color: #333;
 ​}
-.fa-external-link, #s-lg-tabs-container .nav-tabs > .active > a, #s-lg-tabs-container .nav-tabs > .active > button, #s-lg-tabs-container .nav-pills > .active > a, #s-lg-tabs-container .nav-pills > .active > button, #s-lg-tabs-container .nav-tabs > li > a:hover, #s-lg-tabs-container .nav-tabs > li > button:hover, #s-lg-tabs-container .nav-pills > li > a:hover, #s-lg-tabs-container .nav-pills > li > button:hover {
-  color: #fff !important;
+#s-lib-admin-main .dataTables_paginate>ul.pagination>li.paginate_button:not(.disabled):not(.active)>a, #s-lib-public-main .dataTables_paginate>ul.pagination>li.paginate_button:not(.disabled):not(.active)>a, .s-lg-link-contrast, .ui-widget-content a, a {
+  color: #337ab7 !important;
 }
-.footer a, .s-srch-result-subjects a, .s-lg-az-result-description a, .s-lg-guide-info-account a {
+#s-lib-admin-main .dataTables_paginate>ul.pagination>li.paginate_button:not(.disabled):not(.active)>a:hover, #s-lib-public-main .dataTables_paginate>ul.pagination>li.paginate_button:not(.disabled):not(.active)>a:hover, .s-lg-link-contrast:hover, .ui-widget-content a:hover, a:hover, a:hover, a:focus, a:active {
+  color: #000 !important;
+}
+.footer a, .s-srch-result-subjects a, .s-lg-az-result-description a, .s-lg-guide-info-account a, .s-lib-main a, .tab-pane a, #s-lg-guide-tabs div a, #s-lg-guide-description a {
   text-decoration: underline !important;
 }
 .badge {
   background-color: #000;
 }
-.navbar-default .navbar-brand {
+.navbar-default .navbar-brand, .s-lib-public-side-header h2 {
   color: #000;
 }
-.label-info[href]:focus, .label-info[href]:hover {
-  background-color: #e8e8e8;
-  color: #000;
+.pager li>a:focus, .pager li>a:hover, .nav>li>a:focus, .nav>li>a:hover, .pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover {
+  background-color: #a30505 !important;
+  color: #fff !important;
+}
+.s-lib-profile-email .label-info:hover, .s-lib-profile-email .label-info:focus, .label-info[href]:focus, .label-info[href]:hover, .s-lib-profile-widget button:hover, .s-lib-profile-widget button:focus {
+  background-color: #000 !important;
+  color: #fff !important;
 }
 .pagination>.disabled>a, .pagination>.disabled>a:focus, .pagination>.disabled>a:hover, .pagination>.disabled>span, .pagination>.disabled>span:focus, .pagination>.disabled>span:hover, .s-srch-result-meta .divider, .s-lg-rss-date, .s-lg-text-ghost, .s-lib-text-ghost {
   color: #767676 !important;
+  background: transparent !important;
 }
-.breadcrumb {
+.breadcrumb, #s-lg-public-skiplink, .well {
   background-color: #fff !important;
 }
 .announcement-alert .container {
-background: #1a665f;
-padding: 1em 2em;
-border-radius: 0 0 8px 8px;
+  background: #1a665f;
+  padding: 1em 2em;
+  border-radius: 0 0 8px 8px;
 }
 .announcement-alert p {
-font-size: 18px;
-text-align: center;
-margin-bottom: 0;
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 0;
 }
 .announcement-alert a {
-color: #fff;
-text-decoration: underline;
+  color: #fff !important;
+  text-decoration: underline;
 }
 .cornell-brand {
-padding: 13px 0;
-position: relative;
-min-height: 1px;
+  padding: 13px 0;
+  position: relative;
+  min-height: 1px;
+}
+.cornell-logo-wrapper {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .cornell-logo {
-float: left;
-width: 100%;
+  padding-left: 0;
+  background: url(https://raw.githubusercontent.com/cul-it/library-website-branding/master/final/CULibraryRed.svg) no-repeat;
+  min-height: 100px;
 }
 .cornell-logo .insignia {
-float: left;
-background: url("https://raw.githubusercontent.com/cul-it/library-website-branding/master/final/cornell_seal_simple_b31b1b.svg") no-repeat;
-margin-right: 0.8em;
-width: 60px;
-height: 60px;
-text-indent: -99999em;
+  float: left;
+  margin-right: 0.8em;
+  width: 100px;
+  height: 100px;
+  text-indent: -99999em;
 }
 .library-brand {
-font-family: "Montserrat", sans-serif;
-text-transform: uppercase;
-font-size: 18px;
-padding: 0 10px;
-margin: 0.8em 0;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-size: 18px;
+  padding: 0 10px;
+  margin: 0.8em 0;
+}
+.fa-external-link, #s-lg-tabs-container .nav-tabs > .active > a, #s-lg-tabs-container .nav-tabs > .active > button, #s-lg-tabs-container .nav-pills > .active > a, #s-lg-tabs-container .nav-pills > .active > button, #s-lg-tabs-container .nav-tabs > li > a:hover, #s-lg-tabs-container .nav-tabs > li > button:hover, #s-lg-tabs-container .nav-pills > li > a:hover, #s-lg-tabs-container .nav-pills > li > button:hover, #cu-identity-wrap a, #cu-identity-wrap a:hover, .lcs_slide_out a, .lcs_slide_out a:hover, #s-lg-tabs-container .nav-tabs > li > a, #s-lg-tabs-container .nav-tabs > li > button, #s-lg-tabs-container .nav-pills > li > a, #s-lg-tabs-container .nav-pills > li > button, #s-lg-tabs-container .nav-tabs > li > a:hover, #s-lg-tabs-container .nav-tabs > li > button:hover, #s-lg-tabs-container .nav-pills > li > a:hover, #s-lg-tabs-container .nav-pills > li > button:hover, .s-lib-profile-email .label-info, .pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover, .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover, .btn-info, .btn-info.active, .btn-info:active, .btn-info:focus, .btn-info:hover {
+  color: #fff !important;
+}
+.library-brand a, .s-srch-result-score {
+  text-decoration: none !important;
+  color: #000 !important;
 }
 .library-brand a {
-text-decoration: none;
-color: #000;
+  text-indent: -99999em;
+  display: block;
+  width: 160px;
+  height: 100px;
+  margin-left: 143px;
 }
 .library-brand a:hover {
-text-decoration: none;
-color: #000;
-cursor: pointer;
+  text-decoration: none !important;
+  color: #000 !important;
+  cursor: pointer;
+}
+.s-srch-result-score {
+  display: none;
 }
 .cornell-brand .container {
 padding: 0;
 }
 #s-lg-guide-list-controls {
   margin-top: 20px;
+}
+.s-lg-book-prop-callno {
+  font-weight: bold;
+}
+ul li, ol li {
+  padding: 2px 0px;
+}
+.s-lg-book-title, #s-lg-tabs-container .nav-tabs > li > a, #s-lg-tabs-container .nav-tabs > li > button, #s-lg-tabs-container .nav-pills > li > a, #s-lg-tabs-container .nav-pills > li > button {
+  font-weight: normal !important;
+}
+.popover, .popover-title, .popover-content {
+  color: #5c5555 !important;
+  font-size: 1em;
+}
+.s-lg-subtab-ul.dropdown-menu>li>a:focus, .s-lg-subtab-ul.dropdown-menu>li>a:hover {
+  background-color: #a30505;
+  color: #fff !important;
+}
+.pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span:focus, .pagination>.active>span:hover {
+  border-color: #a30505 !important;
 }
